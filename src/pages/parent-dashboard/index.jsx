@@ -3,7 +3,7 @@ import MainLayout from '../../components/layout/MainLayout';
 import Breadcrumb from '../../components/navigation/Breadcrumb';
 import StudentOverviewCard from './components/StudentOverviewCard';
 import PerformanceAnalysis from './components/PerformanceAnalysis';
-import NotificationCenter from './components/NotificationCenter';
+import NotificationCentre from './components/NotificationCentre';
 import KeyMetrics from './components/KeyMetrics';
 import CommunicationPanel from './components/CommunicationPanel';
 
@@ -257,7 +257,7 @@ const ParentDashboard = () => {
             <StudentOverviewCard studentData={studentData} />
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
-              <NotificationCenter notifications={notifications} />
+              <NotificationCentre notifications={notifications} />
               <KeyMetrics metrics={metrics} />
             </div>
 
