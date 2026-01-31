@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: '/silent-signals/',
+  base: '/11/',
   plugins: [react()],
   resolve: {
     alias: {
